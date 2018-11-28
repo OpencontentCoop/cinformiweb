@@ -15,10 +15,10 @@ AllowedTypes[]=Newsletter
 Name=Newsletter
 ManualAddingOfItems=disabled
 ViewList[]
-ViewList[]=boxed
-ViewList[]=wide
-ViewName[boxed]=Boxed
-ViewName[wide]=Wide
+ViewList[]=newsletter
+ViewList[]=newsletter_wide
+ViewName[newsletter]=Boxed
+ViewName[newsletter_wide]=Wide
 
 
 

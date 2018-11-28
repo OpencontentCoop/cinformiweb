@@ -1,4 +1,4 @@
-<div class="Grid u-background-80">
+<div class="Grid u-background-80 u-margin-bottom-m u-padding-all-xxl">
   <div class="Grid-cell u-sizeFull">
     <div class="u-padding-all-xl  u-layoutCenter u-textCenter u-layout-prose">
       <h3 class="u-text-h3 u-color-white">Iscriviti alla <strong>newsletter</strong></h3>

@@ -6,13 +6,13 @@ Source=block/view/view.tpl
 MatchFile=block/newsletter.tpl
 Subdir=templates
 Match[type]=Newsletter
-Match[view]=boxed
+Match[view]=newsletter
 
 [block_newsletter_wide]
 Source=block/view/view.tpl
 MatchFile=block/newsletter.tpl
 Subdir=templates
 Match[type]=Newsletter
-Match[view]=wide
+Match[view]=newsletter_wide
 
 */ ?>
