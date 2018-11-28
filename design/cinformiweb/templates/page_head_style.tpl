@@ -9,7 +9,7 @@
 
 {if $load_css_file_list}
 {ezcss_load( array(
-
+        'custom.css',
         $css_theme,
         'ez.css',
         'debug.css',
@@ -21,7 +21,7 @@
     'all', 'text/css', 'stylesheet' )}
 {else}
 {ezcss_load( array(
-
+        'custom.css',
         $css_theme,
         'ez.css',
         'debug.css',

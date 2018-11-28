@@ -1,0 +1,10 @@
+.media-body {
+  display: inline !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .media-body {
+    display: table-cell !important;
+  }
+}
