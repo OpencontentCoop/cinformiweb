@@ -1,15 +1,7 @@
 <?php /*
 
-[PushToBlock]
-ContentClasses[]
-ContentClasses[]=frontpage
-ContentClasses[]=homepage
-ContentClasses[]=area_tematica
-RootSubtree=1
-
 [General]
 AllowedTypes[]=Newsletter
-
 
 [Newsletter]
 Name=Newsletter
