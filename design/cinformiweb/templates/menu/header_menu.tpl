@@ -63,13 +63,15 @@
                                   menu_item=$sub_child}
                                 </li>
                               {/foreach}
-                              <li>
-                                {include
-                                recursion=2
-                                name="top_sub_menu"
-                                uri='design:menu/header_leggi_tutto_item.tpl'
-                                menu_item=$child}
-                              </li>
+                              {if $child.children|count()|gt(1)}
+                                <li>
+                                  {include
+                                  recursion=2
+                                  name="top_sub_menu"
+                                  uri='design:menu/header_leggi_tutto_item.tpl'
+                                  menu_item=$child}
+                                </li>
+                              {/if}
                             {/if}
                           </ul>
                         </li>

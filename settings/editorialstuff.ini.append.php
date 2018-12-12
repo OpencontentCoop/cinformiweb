@@ -10,7 +10,6 @@ RepositoryNodes[]=1873
 ClassIdentifier=news
 CreationButtonText=Crea una nuova news
 StateGroup=news
-States[skipped]=Non moderato
 States[draft]=Bozza
 States[pending]=In attesa di approvazione
 States[published]=Approvato e pubblicato
@@ -19,4 +18,6 @@ AttributeIdentifiers[images]=image
 AttributeIdentifiers[videos]=video
 AttributeIdentifiers[audios]=audio
 NotificationAttributeIdentifiers[]
+Actions[]
+Actions[draft-pending]=NotifyGroup;10640
 

@@ -30,6 +30,7 @@
             {/foreach}
 
             {*include uri='design:header/languages.tpl'*}
+          <img class="u-floatRight" style="margin-bottom: -5px" src="{'logo-trentino.png'|ezimage(no)}" title="Trentino" />
 
         </div>
     </div>
