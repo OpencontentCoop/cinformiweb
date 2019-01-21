@@ -31,3 +31,4 @@
     'all', 'text/css', 'stylesheet' )}
 {/if}
 
+<link rel="stylesheet" type="text/css" href="{"stylesheets/print.css"|ezdesign(no)}"  media="print" />

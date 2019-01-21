@@ -54,6 +54,20 @@
 
       {include uri=$openpa.content_infocollection.template}
 
+      <div class="Grid Grid--withGutter u-layout-prose">
+        <div class="Grid-cell u-size1of2">
+          <button class="Button Button--info print" style="padding: 12px 15px;" onclick="window.print();return false;">
+            <i class="fa fa-print" aria-hidden="true"></i> Stampa
+          </button>
+        </div>
+        <div class="Grid-cell u-size1of2">
+          {if ezini('GeneralSettings','SocialButtons', 'openpa.ini')|eq('enabled')}
+            {include uri='design:openpa/full/parts/social_buttons.tpl'}
+          {/if}
+        </div>
+      </div>
+
+
       {node_view_gui content_node=$node view=children view_parameters=$view_parameters}
 
     </div>
